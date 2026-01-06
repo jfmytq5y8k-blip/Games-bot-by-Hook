@@ -1,8 +1,9 @@
 {
-  "token": "",
+  "token": "MTQ1NzkwNzE1NzYwODU2NjgxNQ.GUxJ2c.hlbqhl2RIYu1Nb8sx1WASSJHooeFbOnWCOXhkA",
   "streaming": {
     "enabled": true,
-    "name": "HOOK",
+    "name": "nightfall",
     "url": "https://twitch.tv/HOOK"  
   }
 }
+
