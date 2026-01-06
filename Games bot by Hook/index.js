@@ -32,7 +32,7 @@ const client = new Client({
 client.on(Events.MessageCreate, async (message) => {
   if (message.author.bot) return;
   const content = message.content.trim();
-  if (content !== '+العاب') return;
+  if (content !== -العاب') return;
 
   const lines = [
     '+روليت',
@@ -76,7 +76,7 @@ client.once('ready', () => {
     client.user.setPresence({
       activities: [
         {
-          name: config.streaming.name || 'HOOK',
+          name: config.streaming.name || 'nightfall',
           type: ActivityType.Streaming,
           url: config.streaming.url || 'https://twitch.tv/'
         }
@@ -93,3 +93,4 @@ if (!token) {
 }
 
 client.login(token);
+
